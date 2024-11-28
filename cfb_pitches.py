@@ -21,7 +21,24 @@ motivations = [
 pitches = {
     "College Experience (1-1)": ["Academic Prestige", "Campus Lifestyle", "Stadium Atmosphere"],
     "Team Player (1-2)": ["Athletic Facilities", "Coach Stability", "Proximity to Home"],
-    # Add other pitches as necessary...
+    "Campus Personality (1-3)": ["Academic Prestige", "Campus Lifestyle", "Proximity to Home"],
+    "It's Game Time (1-4)": ["Conference Prestige", "Playing Style", "Proximity to Home"],
+    "Prestigious (1-5)": ["Coach Prestige", "Conference Prestige", "Proximity to Home"],
+    "Student of the Game (2-1)": ["Academic Prestige", "Coach Prestige", "Proximity to Home"],
+    "Hometown Hero (2-2)": ["Campus Lifestyle", "Proximity to Home", "Program Tradition"],
+    "Prove Yourself (2-3)": ["Athletic Facilities", "Coach Prestige", "Conference Prestige"],
+    "The Clutch (2-4)": ["Pro Potential", "Playing Style", "Proximity to Home"],
+    "TV Time (2-5)": ["Brand Exposure", "Championship Contender", "Playing Time"],
+    "Coach's Favorite (3-1)": ["Athletic Facilities", "Coach Prestige", "Proximity to Home"],
+    "Aspirational (3-2)": ["Athletic Facilities", "Championship Contender", "Proximity to Home"],
+    "To The House (3-3)": ["Brand Exposure", "Championship Contender", "Coach Prestige"],
+    "Football Influencer (3-4)": ["Championship Contender", "Pro Potential", "Program Tradition"],
+    "Time To Get To Work (3-5)": ["Playing Time", "Playing Style", "Proximity to Home"],
+    "Starter (4-1)": ["Brand Exposure", "Playing Time", "Pro Potential"],
+    "Grassroots (4-2)": ["Pro Potential", "Proximity to Home", "Program Tradition"],
+    "Conference Spotlight (4-3)": ["Championship Contender", "Conference Prestige", "Proximity to Home"],
+    "Sunday Bound (4-4)": ["Championship Contender", "Conference Prestige", "Pro Potential"],
+    "Work Horse (4-5)": ["Athletic Facilities", "Brand Exposure", "Pro Potential"],
 }
 
 # Custom CSS for smaller buttons
