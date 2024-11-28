@@ -73,7 +73,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("Pitch Finder")
+#st.title("Pitch Finder")
 
 # State to track "Change All" toggle
 if "change_all_status" not in st.session_state:
