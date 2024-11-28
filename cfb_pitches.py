@@ -92,7 +92,7 @@ change_all_label = (
 )
 st.caption(change_all_label)
 
-st.header("Set Motivation Status")
+#st.header("Set Motivation Status")
 motivation_status = {}
 
 # Create a compact grid for each motivation
