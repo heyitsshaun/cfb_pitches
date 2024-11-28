@@ -73,7 +73,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("Motivation and Pitch Finder")
+st.title("Pitch Finder")
 
 # State to track "Change All" toggle
 if "change_all_status" not in st.session_state:
@@ -134,9 +134,9 @@ def find_applicable_pitches(motivation_status):
 if st.button("Submit"):
     applicable_pitches = find_applicable_pitches(motivation_status)
     
-    st.header("Applicable Pitches")
+    st.header("Pitches")
     if applicable_pitches:
         for pitch in applicable_pitches:
             st.write(f"- {pitch}")
     else:
-        st.write("No applicable pitches based on the current motivation statuses.")
+        st.write("No pitches.")
